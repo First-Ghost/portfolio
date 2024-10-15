@@ -28,15 +28,13 @@ export const Projects = () => {
               src={multipage}
               alt="multipage"
             />
-            <div className="text-left">
-              <h1 className="lg:text-[24px] uppercase lg:text-left ">
-                multi-page website
-              </h1>
+            <div>
+              <h1 className="lg:text-[24px] uppercase ">multi-page website</h1>
 
               <p>REACT & TAILWIND</p>
             </div>
           </div>
-          <div className="lg:w-[540px] lg:h-[480px] flex flex-col items-center bg-black">
+          <div className="lg:w-[540px] lg:h-[480px] flex flex-col items-start bg-black ">
             <img
               className="lg:w-auto lg:h-[400px] object-cover"
               src={remaflix}
@@ -50,9 +48,9 @@ export const Projects = () => {
               <p>REACT & TAILWIND</p>
             </div>
           </div>
-          <div className="lg:w-[540px] lg:h-[480px]  flex flex-col items-center ">
+          <div className="lg:w-[540px] lg:h-[480px]  flex flex-col items-start bg-black  ">
             <img
-              className="lg:w-auto lg:h-[400px] object-cover"
+              className="lg:w-auto lg:h-[380px] object-cover"
               src={todo}
               alt="todo"
             />
@@ -62,7 +60,7 @@ export const Projects = () => {
               <p>REACT & TAILWIND</p>
             </div>
           </div>
-          <div className="lg:w-[540px] lg:h-[480px] flex flex-col items-center">
+          <div className="lg:w-[540px] lg:h-[480px] flex flex-col items-start bg-black">
             <img
               className="lg:w-auto lg:h-[400px] object-cover"
               src={bmi}
