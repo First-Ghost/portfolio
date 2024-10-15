@@ -9,10 +9,10 @@ export const Hero = () => {
       className="relative lg:max-w-[1440px] lg:h-[800px] md:max-w-[760px] md:h-[624px] max-w-[375px] h-[1000px]   mx-auto flex 
     justify-center items-center md:text-left text-center   "
     >
-      <div className="lg:w-[1340px] lg:h-[700px] md:w-[768px] md:h-[624px]   md:mt-10 flex md:flex-row flex-col-reverse ">
+      <div className="lg:w-[1340px] lg:h-[750px] md:w-[768px] md:h-[624px]   md:mt-10 flex md:flex-row flex-col-reverse  ">
         <div className="lg:w-[680px] lg:h-[650px] md:w-[668px] md:h-[466px]  w-[343px] h-[464px]  mx-auto px-4 flex flex-col  md:items-start lg:justify-center  justify-between items-center   ">
           <h1
-            className=" lg:w-[300px] lg:h-[200px] lg:text-[88px] font-bold lg:leading-[88px] lg:tracking-[-2.5px]  lg:my-8 
+            className=" lg:w-[400px] lg:h-[200px] lg:text-[80px] font-bold lg:leading-[80px] lg:tracking-[-2.5px]  lg:my-8 
           md:text-[62px] md:leading-[72px] md:tracking-[-2.05px]
           text-[40px]
           "
@@ -44,7 +44,7 @@ export const Hero = () => {
         </div>
         <div>
           <img
-            className="lg:w-[430px] lg:h-[650px]  md:w-[325px] md:h-[525px] w-[300px] h-[485px] object-cover px-4 mx-auto py-5 md:py-0"
+            className="lg:w-[430px] lg:h-[650px]  md:w-[325px] md:h-[525px] w-[300px] h-[485px] object-cover px-4 mx-auto py-5 md:py-0  "
             src={myImage}
             alt="me"
           />
@@ -52,7 +52,7 @@ export const Hero = () => {
       </div>
       <div>
         <img
-          className="absolute lg:left-[-15%] lg:top-[35%] md:left-[-35%] md:top-[15%]  md:block hidden "
+          className="absolute lg:left-[-15%] lg:top-[35%] md:left-[-35%] md:top-[15%] left-[-55%] top-[55%]  "
           src={rings}
           alt="rings"
         />
