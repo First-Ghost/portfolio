@@ -9,16 +9,16 @@ export const Hero = () => {
       className="relative lg:max-w-[1440px] lg:h-[800px] md:max-w-[760px] md:h-[624px] max-w-[375px] h-[1000px]   mx-auto flex 
     justify-center items-center md:text-left text-center   "
     >
-      <div className="lg:w-[1340px] lg:h-[750px] md:w-[768px] md:h-[624px]   md:mt-10 flex md:flex-row flex-col-reverse  ">
+      <div className="lg:w-[1110px] lg:h-[750px] md:w-[768px] md:h-[624px]   md:mt-10 flex md:flex-row flex-col-reverse  ">
         <div className="lg:w-[680px] lg:h-[650px] md:w-[668px] md:h-[466px]  w-[343px] h-[464px]  mx-auto px-4 flex flex-col  md:items-start lg:justify-center  justify-between items-center   ">
           <h1
-            className=" lg:w-[400px] lg:h-[200px] lg:text-[80px] font-bold lg:leading-[80px] lg:tracking-[-2.5px]  lg:my-8 
+            className=" lg:w-[410px] lg:h-[200px] lg:text-[80px] font-bold lg:leading-[80px] lg:tracking-[-2.5px]  lg:my-8 
           md:text-[62px] md:leading-[72px] md:tracking-[-2.05px]
           text-[40px]
           "
           >
             <TypeAnimation
-              sequence={[" I’m Kasim! ", 3000, "Nice to meet you! ", 3000]}
+              sequence={["I’m Kasim! ", 3000, "Nice to meet you! ", 3000]}
               wrapper="div"
               speed={50}
               repeat={Infinity}
@@ -35,7 +35,7 @@ export const Hero = () => {
               updated with the latest technologies. Fluent in both English and
               Finnish.
             </p>
-            <div className="mt-10 text-[15px] leading-[16px] tracking-[2.20px] my-5 ml-2 font-bold w-[125px] h-[25px] border-b-2  border-b-[#4EE1A0] hover hover:tracking-[3px] ">
+            <div className="mt-10 text-[15px] leading-[16px] tracking-[2.20px] my-5 ml-2 font-bold w-[125px] h-[25px] border-b-2  border-b-[#4EE1A0] hover hover:tracking-[3px] flex justify-center">
               <button className="hover:text-[#4EE1A0]  duration-200  ">
                 CONTACT ME
               </button>
