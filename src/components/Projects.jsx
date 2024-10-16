@@ -1,7 +1,9 @@
-import multipage from "../images/multi-1.png";
-import remaflix from "../images/remaflix.png";
-import todo from "../images/todo-1.png";
-import bmi from "../images/bmi.png";
+import multipage from "../images/multipage_f.png";
+import remaflix from "../images/remaflix_f.png";
+import todo from "../images/todo_f.png";
+import bmi from "../images/bmi_f.png";
+import data from "../images/data_f.png";
+import fastfood from "../images/fastfood_f.png";
 
 export const Projects = () => {
   return (
@@ -21,7 +23,8 @@ export const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="lg:w-[1110px] lg:h-[1000px] lg:grid-cols-2 lg:grid-rows-2   grid ">
+
+        <div className="lg:w-[1110px] lg:h-[1600px] lg:grid-cols-2 lg:grid-rows-2   grid ">
           <div className="lg:w-[540px] lg:h-[480px] flex flex-col items-start justify-center bg-black ">
             <img
               className="lg:w-auto  lg:h-[400px] object-cover "
@@ -29,12 +32,14 @@ export const Projects = () => {
               alt="multipage"
             />
             <div>
-              <h1 className="lg:text-[24px] uppercase ">multi-page website</h1>
+              <h1 className="lg:text-[24px] uppercase ">
+                multi-page website (Routing & animation)
+              </h1>
 
               <p>REACT & TAILWIND</p>
             </div>
           </div>
-          <div className="lg:w-[540px] lg:h-[480px] flex flex-col items-start bg-black ">
+          <div className="lg:w-[530px] lg:h-[480px] flex flex-col items-start bg-black ">
             <img
               className="lg:w-auto lg:h-[400px] object-cover"
               src={remaflix}
@@ -42,7 +47,7 @@ export const Projects = () => {
             />
             <div>
               <h1 className="lg:text-[24px] uppercase  ">
-                ENTERTAINMENT WEB APP
+                ENTERTAINMENT WEB APP (API & Routing )
               </h1>
 
               <p>REACT & TAILWIND</p>
@@ -55,7 +60,9 @@ export const Projects = () => {
               alt="todo"
             />
             <div>
-              <h1 className="lg:text-[24px] uppercase  ">TODO WEB APP</h1>
+              <h1 className="lg:text-[24px] uppercase  ">
+                TODO WEB APP (simple CRUD)
+              </h1>
 
               <p>REACT & TAILWIND</p>
             </div>
@@ -68,6 +75,34 @@ export const Projects = () => {
             />
             <div>
               <h1 className="lg:text-[24px] uppercase  ">BMI Calculator</h1>
+
+              <p>REACT & TAILWIND</p>
+            </div>
+          </div>
+          <div className="lg:w-[540px] lg:h-[480px] flex flex-col items-start bg-black">
+            <img
+              className="lg:w-auto lg:h-[400px] object-cover"
+              src={data}
+              alt="data"
+            />
+            <div>
+              <h1 className="lg:text-[24px] uppercase  ">
+                Cloud-Data (Smooth scrolling)
+              </h1>
+
+              <p>REACT & TAILWIND</p>
+            </div>
+          </div>
+          <div className="lg:w-[540px] lg:h-[480px] flex flex-col items-start bg-black">
+            <img
+              className="lg:w-auto lg:h-[400px] object-cover"
+              src={fastfood}
+              alt="fastfood"
+            />
+            <div>
+              <h1 className="lg:text-[24px] uppercase  ">
+                Fast Food Menu (data.json)
+              </h1>
 
               <p>REACT & TAILWIND</p>
             </div>
