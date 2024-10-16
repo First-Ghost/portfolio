@@ -15,7 +15,7 @@ export const Experience = () => {
   grid lg:grid-rows-2 lg:grid-cols-3 md:grid-rows-3 md:grid-cols-2 grid-cols-1 grid-rows-6 md:text-left text-center my-10"
         >
           <div
-            data-aos="fade-right"
+            data-aos="fade-down"
             className="w-[345px] md:h-[98px] h-[67px]  flex flex-col justify-between px-2  "
           >
             <h1 className="md:text-[48px] text-[32px] font-bold">HTML</h1>
@@ -29,14 +29,14 @@ export const Experience = () => {
             <p className="text-[#4EE1A0]">1 Years Experience</p>
           </div>
           <div
-            data-aos="fade-left"
+            data-aos="fade-up"
             className="w-[345px] md:h-[98px] h-[67px]  flex flex-col justify-between px-2 "
           >
             <h1 className="md:text-[48px] text-[32px] font-bold">Sass</h1>
             <p className="text-[#4EE1A0]">2 Months Experience</p>
           </div>
           <div
-            data-aos="fade-right"
+            data-aos="fade-down"
             className="w-[345px] md:h-[98px] h-[67px]  flex flex-col justify-between px-2 "
           >
             <h1 className="md:text-[48px] text-[32px] font-bold">Javascript</h1>
@@ -50,7 +50,7 @@ export const Experience = () => {
             <p className="text-[#4EE1A0]">1 Years Experience</p>
           </div>
           <div
-            data-aos="fade-left"
+            data-aos="fade-up"
             className="w-[345px] md:h-[98px]  h-[67px] flex flex-col justify-between px-2 "
           >
             <h1 className="md:text-[48px] text-[32px] font-bold">Tailwind</h1>
