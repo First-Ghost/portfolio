@@ -1,6 +1,5 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import rings from "../images/pattern-rings.svg";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -9,6 +8,7 @@ export const Contact = () => {
     message: "",
   });
   const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -33,15 +33,24 @@ export const Contact = () => {
     setErrors(formErrors);
 
     if (Object.keys(formErrors).length === 0) {
+      const templateParams = {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      };
+
       emailjs
         .send(
-          "service_djc4ld9",
-          "template_wgdbsgi",
-          formData,
-          "OLE0XCt6kXZ8r6aF4"
+          "service_djc4ld9", // Your actual service ID
+          "template_wgdbsgi", // Your actual template ID
+          templateParams,
+          "OLE0XCt6kXZ8r6aF4" // Your actual public key
         )
         .then((result) => {
           console.log("Form submitted successfully!", result.text);
+          setFormData({ name: "", email: "", message: "" }); // Clear form fields
+          setSuccessMessage("Message sent successfully!"); // Show success message
+          setTimeout(() => setSuccessMessage(""), 5000); // Clear success message after 5 seconds
         })
         .catch((error) => {
           console.error("Error submitting form:", error.text);
@@ -97,16 +106,18 @@ export const Contact = () => {
             <p className="text-red-500 text-xs mt-1">{errors.message}</p>
           )}
         </div>
-        <div className="mt-5">
+        <div className="mt-10 leading-[16px] tracking-[2.20px] my-5 ml-2 font-bold w-[165px] h-[25px] border-b-2 border-b-[#4EE1A0] hover:tracking-[3px] flex justify-center">
           <button
-            className="text-white border-b-2 border-[#4EE1A0] hover:text-[#4EE1A0] px-4 py-2 uppercase hover:tracking-wide duration-300"
+            className="hover:text-[#4EE1A0] duration-200 uppercase"
             type="submit"
           >
-            Send Message
+            send message
           </button>
         </div>
       </form>
-      <img className="absolute top-20 left-[-15%]" src={rings} alt="rings" />
+      {successMessage && (
+        <p className="text-green-500 mt-4">{successMessage}</p>
+      )}
     </div>
   );
 };

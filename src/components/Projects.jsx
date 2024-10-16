@@ -27,7 +27,10 @@ export const Projects = () => {
         <div className="lg:w-[1110px] lg:h-[1600px] md:w-[708px] md:h-[1015px] w-[340px] h-[2200px] md:grid-rows-2 md:grid-cols-2 grid-cols-1 grid-rows-7 grid lg:my-1 my-10 mx-auto">
           {/* Card 1 */}
 
-          <div className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black">
+          <div
+            data-aos="fade-right"
+            className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black"
+          >
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90 ">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <button className=" hover:text-[#4EE1A0] font-bold border-b-2 border-b-[#4EE1A0] hover:tracking-widest duration-300 text-[24px] ">
@@ -44,7 +47,10 @@ export const Projects = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black">
+          <div
+            data-aos="fade-left"
+            className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black"
+          >
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <button className="hover:text-[#4EE1A0] font-bold border-b-2 border-b-[#4EE1A0] hover:tracking-widest duration-300 text-[24px]">
@@ -66,7 +72,10 @@ export const Projects = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black">
+          <div
+            data-aos="fade-right"
+            className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black"
+          >
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <button className="hover:text-[#4EE1A0] font-bold border-b-2 border-b-[#4EE1A0] hover:tracking-widest duration-300 text-[24px]">
@@ -88,7 +97,10 @@ export const Projects = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black">
+          <div
+            data-aos="fade-left"
+            className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black"
+          >
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <button className="hover:text-[#4EE1A0] font-bold border-b-2 border-b-[#4EE1A0] hover:tracking-widest duration-300 text-[24px]">
@@ -108,7 +120,10 @@ export const Projects = () => {
           </div>
 
           {/* Card 5 */}
-          <div className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black">
+          <div
+            data-aos="fade-right"
+            className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black"
+          >
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <button className="hover:text-[#4EE1A0] font-bold border-b-2 border-b-[#4EE1A0] hover:tracking-widest duration-300 text-[24px]">
@@ -130,7 +145,10 @@ export const Projects = () => {
           </div>
 
           {/* Card 6 */}
-          <div className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black">
+          <div
+            data-aos="fade-left"
+            className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black"
+          >
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <button className="hover:text-[#4EE1A0] font-bold border-b-2 border-b-[#4EE1A0] hover:tracking-widest duration-300 text-[24px]">
