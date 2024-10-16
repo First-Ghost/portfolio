@@ -17,24 +17,23 @@ export const NavBar = () => {
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl cursor-default text-[#4EE1A0]">
             PORTOFOLIO
           </h1>
-          <ul className="hidden md:flex ml-[5rem] ">
-            <li className="cursor-pointer mr-5  ">
+          <ul className="hidden md:flex ml-[5rem] text-[18px] ]">
+            <li className="cursor-pointer mr-5   hover:text-[#4EE1A0] ">
               <Link to="home" smooth={true} duration={500}>
-                Home
+                HomeÖ
               </Link>
-            </li>
-            <li className="cursor-pointer mr-5">
+            </li>{" "}
+            <li className="cursor-pointer mr-5  hover:text-[#4EE1A0]">
               <Link to="experience" smooth={true} offset={-200} duration={500}>
                 Experience
               </Link>
             </li>
-            <li className="cursor-pointer mr-5">
+            <li className="cursor-pointer mr-5  hover:text-[#4EE1A0]">
               <Link to="projects" smooth={true} offset={-50} duration={500}>
                 Projects
               </Link>
             </li>
-
-            <li className="cursor-pointer">
+            <li className="cursor-pointer  hover:text-[#4EE1A0] ">
               <Link to="contact" smooth={true} offset={-50} duration={500}>
                 Contact
               </Link>
