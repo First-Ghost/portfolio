@@ -1,14 +1,14 @@
 import myImage from "../images/porto 2.jpg";
-import rings from "../images/pattern-rings.svg";
 
 import { TypeAnimation } from "react-type-animation";
 
 export const Hero = () => {
   return (
     <div
-      className="relative lg:max-w-[1440px] lg:h-[800px] md:max-w-[760px] md:h-[624px] max-w-[375px] h-[1000px]   mx-auto flex 
+      className=" lg:max-w-[1440px] lg:h-[800px] md:max-w-[760px] md:h-[624px] max-w-[375px] h-[1000px]   mx-auto flex 
     justify-center items-center md:text-left text-center   "
     >
+      <div name="home" className="absolute top-0 left-0 "></div>
       <div className="lg:w-[1110px] lg:h-[750px] md:w-[768px] md:h-[624px]   md:mt-10 flex md:flex-row flex-col-reverse  ">
         <div className="lg:w-[680px] lg:h-[650px] md:w-[668px] md:h-[466px]  w-[343px] h-[464px]  mx-auto px-4 flex flex-col  md:items-start lg:justify-center  justify-between items-center   ">
           <h1
@@ -49,13 +49,6 @@ export const Hero = () => {
             alt="me"
           />
         </div>
-      </div>
-      <div>
-        <img
-          className="absolute lg:left-[-15%] lg:top-[35%] md:left-[-35%] md:top-[15%] left-[-55%] top-[55%]  "
-          src={rings}
-          alt="rings"
-        />
       </div>
     </div>
   );

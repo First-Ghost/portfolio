@@ -59,7 +59,10 @@ export const Contact = () => {
   };
 
   return (
-    <div className="relative w-full lg:h-[675px] mx-auto bg-[#242424] p-8 text-white flex flex-col justify-center items-center">
+    <div
+      name="contact"
+      className="relative w-full lg:h-[675px] mx-auto bg-[#242424] p-8 text-white flex flex-col justify-center items-center"
+    >
       <h1 className="font-bold text-[40px] lg:text-[88px] tracking-tight mb-8">
         Contact
       </h1>

@@ -7,7 +7,10 @@ import fastfood from "../images/fastfood_f.png";
 
 export const Projects = () => {
   return (
-    <div className="lg:max-w-[1440px] lg:h-[1870px] md:max-w-[760px] md:h-[1346px] max-w-[375px] h-[2100px]  mx-auto lg:mt-0  mt-[5rem]">
+    <div
+      name="projects"
+      className="lg:max-w-[1440px] lg:h-[1870px] md:max-w-[760px] md:h-[1346px] max-w-[375px] h-[2100px]  mx-auto lg:mt-0  mt-[5rem]"
+    >
       <div className="lg:w-[1110px] lg:h-[1270px] md:w-[708px] md:h-[1015px] mx-auto felx flex-col justify-between ">
         <div className="lg:h-[170px] flex justify-between items-center px-4">
           <h1
