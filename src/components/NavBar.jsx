@@ -20,7 +20,7 @@ export const NavBar = () => {
           <ul className="hidden md:flex ml-[5rem] text-[18px] ]">
             <li className="cursor-pointer mr-5   hover:text-[#4EE1A0] ">
               <Link to="home" smooth={true} duration={500}>
-                HomeÖ
+                Home
               </Link>
             </li>{" "}
             <li className="cursor-pointer mr-5  hover:text-[#4EE1A0]">
