@@ -18,42 +18,52 @@ export const Experience = () => {
             data-aos="fade-down"
             className="w-[345px] md:h-[98px] h-[67px] flex flex-col justify-between px-2"
           >
-            <h1 className="md:text-[48px] text-[32px] font-bold">HTML</h1>
+            <h1 className="md:text-[48px] text-[32px] font-bold text-">HTML</h1>
             <p className="text-[#4EE1A0]">1 Years Experience</p>
           </div>
           <div
             data-aos="fade-down"
             className="w-[345px] md:h-[98px] h-[67px] flex flex-col justify-between px-2"
           >
-            <h1 className="md:text-[48px] text-[32px] font-bold">CSS</h1>
+            <h1
+              className="md:text-[48px] text-[32px] font-bold 
+"
+            >
+              CSS
+            </h1>
             <p className="text-[#4EE1A0]">1 Years Experience</p>
           </div>
           <div
             data-aos="fade-down"
             className="w-[345px] md:h-[98px] h-[67px] flex flex-col justify-between px-2"
           >
-            <h1 className="md:text-[48px] text-[32px] font-bold">Sass</h1>
+            <h1 className="md:text-[48px] text-[32px] font-bold ">Sass</h1>
             <p className="text-[#4EE1A0]">2 Months Experience</p>
           </div>
           <div
             data-aos="fade-up"
             className="w-[345px] md:h-[98px] h-[67px] flex flex-col justify-between px-2"
           >
-            <h1 className="md:text-[48px] text-[32px] font-bold">Javascript</h1>
+            <h1
+              className="md:text-[48px] text-[32px] font-bold 
+] "
+            >
+              Javascript
+            </h1>
             <p className="text-[#4EE1A0]">1 Years Experience</p>
           </div>
           <div
             data-aos="fade-up"
             className="w-[345px] md:h-[98px] h-[67px] flex flex-col justify-between px-2"
           >
-            <h1 className="md:text-[48px] text-[32px] font-bold">React</h1>
+            <h1 className="md:text-[48px] text-[32px] font-bold ">React</h1>
             <p className="text-[#4EE1A0]">1 Years Experience</p>
           </div>
           <div
             data-aos="fade-up"
             className="w-[345px] md:h-[98px] h-[67px] flex flex-col justify-between px-2"
           >
-            <h1 className="md:text-[48px] text-[32px] font-bold">Tailwind</h1>
+            <h1 className="md:text-[48px] text-[32px] font-bold ">Tailwind</h1>
             <p className="text-[#4EE1A0]">1 Years Experience</p>
           </div>
         </div>
