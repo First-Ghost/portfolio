@@ -51,7 +51,7 @@ export const Projects = () => {
             <img src={multipage} alt="multipage" />
             <div>
               <h1 className="lg:text-[24px] uppercase">
-                ENTERTAINMENT WEB APP ( Routing)
+                Multi-Page ( Routing)
               </h1>
               <p>REACT & TAILWIND</p>
             </div>
