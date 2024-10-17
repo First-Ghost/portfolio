@@ -18,7 +18,7 @@ export const Experience = () => {
             data-aos="fade-down"
             className="w-[345px] md:h-[98px] h-[67px] flex flex-col justify-between px-2"
           >
-            <h1 className="md:text-[48px] text-[32px] font-bold text-">HTML</h1>
+            <h1 className="md:text-[48px] text-[32px] font-bold ">HTML</h1>
             <p className="text-[#4EE1A0]">1 Years Experience</p>
           </div>
           <div

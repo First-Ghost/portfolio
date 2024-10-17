@@ -89,7 +89,7 @@ export const Projects = () => {
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <a
-                  href="https://first-ghost.github.io/022_BMI-vite/"
+                  href="https://first-ghost.github.io/026_todo/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -116,9 +116,15 @@ export const Projects = () => {
           <div className="relative lg:w-[540px] lg:h-[480px] md:w-[340px] h-[300px] bg-black">
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
-                <button className="hover:text-[#4EE1A0] font-bold border-b-2 border-b-[#4EE1A0] hover:tracking-widest duration-300 text-[24px]">
-                  VIEW PROJECT
-                </button>
+                <a
+                  href="https://first-ghost.github.io/022_BMI-vite/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="hover:text-[#4EE1A0] font-bold border-b-2 border-b-[#4EE1A0] hover:tracking-widest duration-300 text-[24px]">
+                    VIEW PROJECT
+                  </button>
+                </a>
               </div>
             </div>
             <img
