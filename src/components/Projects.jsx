@@ -38,7 +38,7 @@ export const Projects = () => {
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90 ">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <a
-                  href="https://first-ghost.github.io/023_photo-multp/"
+                  href="https://kasim-ke.github.io/023_photo-multp/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -61,7 +61,7 @@ export const Projects = () => {
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <a
-                  href="https://first-ghost.github.io/remaflix/"
+                  href="https://kasim-ke.github.io/remaflix/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -89,7 +89,7 @@ export const Projects = () => {
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <a
-                  href="https://first-ghost.github.io/026_todo/"
+                  href="https://kasim-ke.github.io/026_todo/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -117,7 +117,7 @@ export const Projects = () => {
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <a
-                  href="https://first-ghost.github.io/022_BMI-vite/"
+                  href="https://kasim-ke.github.io/022_BMI-vite/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -143,7 +143,7 @@ export const Projects = () => {
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <a
-                  href=" https://first-ghost.github.io/017-cloud-data/"
+                  href=" https://kasim-ke.github.io/017-cloud-data/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -171,7 +171,7 @@ export const Projects = () => {
             <div className="absolute lg:w-[540px] lg:h-[405px] md:w-[340px] h-[255px] top-0 left-0 right-0 bottom-0 hover:bg-black hover:bg-opacity-75 ease-in duration-500 bg-gradient-to-r from-black/75 via-gray-800/40 to-black/90">
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-400">
                 <a
-                  href="https://first-ghost.github.io/fast_food/"
+                  href="https://kasim-ke.github.io/fast_food/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
