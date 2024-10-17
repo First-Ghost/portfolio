@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 import multipage from "../images/multipage_f.png";
 import remaflix from "../images/remaflix_f.png";
 import todo from "../images/todo_f.png";
@@ -21,8 +23,10 @@ export const Projects = () => {
             Projects
           </h1>
           <div className="lg:mt-1 mt-10 text-[15px] leading-[16px] tracking-[2.20px]   font-bold w-[125px] h-[25px] border-b-2  border-b-[#4EE1A0]  hover:tracking-[3px] flex justify-center md:mb-12 mb-10 ">
-            <button className="hover:text-[#4EE1A0]  duration-200  ">
-              CONTACT ME
+            <button className="hover:text-[#4EE1A0]  duration-200 uppercase ">
+              <Link to="contact" smooth={true} offset={-50} duration={500}>
+                Contact me
+              </Link>
             </button>
           </div>
         </div>

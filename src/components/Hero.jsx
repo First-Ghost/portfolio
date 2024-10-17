@@ -1,4 +1,5 @@
 import myImage from "../images/porto 2.jpg";
+import { Link } from "react-scroll";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -36,8 +37,10 @@ export const Hero = () => {
               Finnish.
             </p>
             <div className="mt-10 text-[15px] leading-[16px] tracking-[2.20px] my-5 ml-2 font-bold w-[125px] h-[25px] border-b-2  border-b-[#4EE1A0] hover hover:tracking-[3px] flex justify-center">
-              <button className="hover:text-[#4EE1A0]  duration-200  ">
-                CONTACT ME
+              <button className="hover:text-[#4EE1A0]  duration-200  uppercase ">
+                <Link to="contact" smooth={true} offset={-50} duration={500}>
+                  Contact me
+                </Link>
               </button>
             </div>
           </div>

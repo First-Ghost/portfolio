@@ -22,7 +22,7 @@ export const NavBar = () => {
               <Link to="home" smooth={true} duration={500}>
                 Home
               </Link>
-            </li>{" "}
+            </li>
             <li className="cursor-pointer mr-5  hover:text-[#4EE1A0]">
               <Link to="experience" smooth={true} offset={-200} duration={500}>
                 Experience
