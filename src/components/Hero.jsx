@@ -12,6 +12,7 @@ export const Hero = () => {
       <div name="home" className="absolute top-0 left-0 "></div>
       <div className="lg:w-[1110px] lg:h-[750px] md:w-[768px] md:h-[624px]   md:mt-10 flex md:flex-row flex-col-reverse  ">
         <div className="lg:w-[680px] lg:h-[650px] md:w-[668px] md:h-[466px]  w-[343px] h-[464px]  mx-auto px-4 flex flex-col  md:items-start lg:justify-center  justify-between items-center   ">
+          fsgvsdfgsdfg
           <h1
             className=" lg:w-[410px] lg:h-[200px] lg:text-[80px] font-bold lg:leading-[80px] lg:tracking-[-2.5px]  lg:my-8 
           md:text-[62px] md:leading-[72px] md:tracking-[-2.05px]
