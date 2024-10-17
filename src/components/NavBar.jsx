@@ -15,7 +15,7 @@ export const NavBar = () => {
          "
         >
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl cursor-default text-[#4EE1A0]">
-            PORTOFOLIO
+            PORTFOLIO
           </h1>
           <ul className="hidden md:flex ml-[5rem] text-[18px] ]">
             <li className="cursor-pointer mr-5   hover:text-[#4EE1A0] ">
