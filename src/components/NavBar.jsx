@@ -56,12 +56,12 @@ export const NavBar = () => {
             : "max-h-screen opacity-100"
         } absolute bg-[#242424]  w-full px-8`}
       >
-        <li className="cursor-pointer w-[22%] mx-auto mb-5 text-[24px] font-bold hover:text-[#4EE1A0] hover:tracking-widest duration-500 border-b-2 border-[#4EE1A0]  ">
+        <li className=" cursor-pointer flex items-center justify-center mb-5 text-[24px] font-bold hover:text-[#4EE1A0] hover:tracking-widest duration-500  ">
           <Link onClick={handleClose} to="home" smooth={true} duration={500}>
             <p className="mx-auto">Home</p>
           </Link>
         </li>
-        <li className="cursor-pointer w-[50%] mx-auto mb-5 text-[24px] font-bold hover:text-[#4EE1A0] hover:tracking-widest  duration-500  border-b-2 border-[#4EE1A0] ">
+        <li className="flex items-center justify-center cursor-pointer  mx-auto mb-5 text-[24px] font-bold hover:text-[#4EE1A0] hover:tracking-widest  duration-500   ">
           <Link
             onClick={handleClose}
             to="experience"
@@ -72,7 +72,7 @@ export const NavBar = () => {
             Experience
           </Link>
         </li>
-        <li className="cursor-pointer w-[33%]  mx-auto mb-5 text-[24px] font-bold hover:text-[#4EE1A0] hover:tracking-widest duration-500  border-b-2 border-[#4EE1A0] ">
+        <li className="flex items-center justify-center cursor-pointer w-[33%]  mx-auto mb-5 text-[24px] font-bold hover:text-[#4EE1A0] hover:tracking-widest duration-500  ">
           <Link
             onClick={handleClose}
             to="projects"
@@ -84,7 +84,7 @@ export const NavBar = () => {
           </Link>
         </li>
 
-        <li className="cursor-pointer w-[33%]  mx-auto mb-5 text-[24px] font-bold hover:text-[#4EE1A0] hover:tracking-widest duration-500  border-b-2 border-[#4EE1A0]   ">
+        <li className="flex items-center justify-center cursor-pointer w-[33%]  mx-auto mb-5 text-[24px] font-bold hover:text-[#4EE1A0] hover:tracking-widest duration-500     ">
           <Link
             onClick={handleClose}
             to="contact"
