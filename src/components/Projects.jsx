@@ -53,7 +53,6 @@ export const Projects = () => {
               <h1 className="lg:text-[24px] uppercase">
                 Multi-Page ( Routing)
               </h1>
-              <p>REACT & TAILWIND</p>
             </div>
           </div>
           {/* Card 2 */}
@@ -80,7 +79,6 @@ export const Projects = () => {
               <h1 className="lg:text-[24px] uppercase">
                 ENTERTAINMENT WEB APP (API & Routing)
               </h1>
-              <p>REACT & TAILWIND</p>
             </div>
           </div>
 
@@ -108,7 +106,6 @@ export const Projects = () => {
               <h1 className="lg:text-[24px] uppercase">
                 TODO WEB APP (simple CRUD)
               </h1>
-              <p>REACT & TAILWIND</p>
             </div>
           </div>
 
@@ -134,7 +131,6 @@ export const Projects = () => {
             />
             <div>
               <h1 className="lg:text-[24px] uppercase">BMI Calculator</h1>
-              <p>REACT & TAILWIND</p>
             </div>
           </div>
 
@@ -162,7 +158,6 @@ export const Projects = () => {
               <h1 className="lg:text-[24px] uppercase">
                 Cloud-Data (Smooth scrolling)
               </h1>
-              <p>REACT & TAILWIND</p>
             </div>
           </div>
 
@@ -190,7 +185,6 @@ export const Projects = () => {
               <h1 className="lg:text-[24px] uppercase">
                 Fast Food Menu (data.json)
               </h1>
-              <p>REACT & TAILWIND</p>
             </div>
           </div>
         </div>
