@@ -27,14 +27,14 @@ export const Hero = () => {
           </h1>
           <div className="flex flex-col md:items-start items-center ">
             <p className="my-5 ml-2 font-bold  ">
-              Front-End Developer (Hobbyist) | Based in Turku, Finland
+              Front-End Developer | Based in Turku, Finland
             </p>
             <p className="ml-2">
-              I&apos;m a self-taught front-end developer with skills in
-              JavaScript, CSS, SASS, and a focus on React and Tailwind CSS. I
-              build user-friendly interfaces through personal projects and stay
-              updated with the latest technologies. Fluent in both English and
-              Finnish.
+              I&apos;m a front-end developer with skills in JavaScript, CSS,
+              SASS, and a focus on React and Tailwind CSS. I build user-friendly
+              interfaces through personal projects and stay updated with the
+              latest technologies. Currently, I’m learning TypeScript to further
+              enhance my development skills. Fluent in both English and Finnish.
             </p>
             <div className="mt-10 text-[15px] leading-[16px] tracking-[2.20px] my-5 ml-2 font-bold w-[125px] h-[25px] border-b-2  border-b-[#4EE1A0] hover hover:tracking-[3px] flex justify-center">
               <button className="hover:text-[#4EE1A0]  duration-200  uppercase ">
